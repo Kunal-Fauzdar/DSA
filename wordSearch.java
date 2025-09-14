@@ -26,6 +26,5 @@ public class wordSearch {
         }
         System.out.println(ht);
         int condition = 0; // Condition to check if the word is found
-        while()
     }
 }
