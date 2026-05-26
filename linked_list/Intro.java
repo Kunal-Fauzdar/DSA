@@ -158,7 +158,7 @@ public class Intro {
         }
 
         Node current = head;
-        for(int i=0 ; i<size-n-1 ; i++){
+        for(int i=1 ; i<size-n ; i++){
             current = current.next;
         }
         current.next = current.next.next;
@@ -180,7 +180,7 @@ public class Intro {
 
         System.out.println("Key found at index (recursive): " + list.recursiveSearch(list.head, 30));
 
-        list.deleteNthFromEnd(1);
+        list.deleteNthFromEnd(3);
         System.out.println("After deleting nth node from end:");
         list.printList();
 
