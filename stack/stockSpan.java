@@ -18,7 +18,6 @@ public class stockSpan {
                 s.push(i);
             }
             else{
-                System.out.println("current "+i+" top "+s.peek());
                 span[i] = i-s.peek();
                 s.push(i);
             }
